@@ -594,8 +594,15 @@ section.section {
  --- Parallax ---
 ============================= */
 
+#parallax {
+    background-image: url(../img/barefoot.png);
+    background-repeat: round, no-repeat;
+    height: 500px;
+    width: auto;
+}
+
 #parallax1 {
-  pading-bottom: 40px;
+  padding-bottom: 40px;
   height: 500px;
 }
 
@@ -1129,7 +1136,7 @@ section.featured h2.slogan {
   }
 }
 
-.carousel-inner .form-inline .form-group button[type="livedemo"] {
+/* .carousel-inner .form-inline .form-group button[type="livedemo"] {
   padding: 20px 60px;
   font-size: 20px;
   background: #3a906d;
@@ -1137,17 +1144,17 @@ section.featured h2.slogan {
   border-radius: 0;
   border-color: #fff;
   text-transform: uppercase;
-}
+} */
 
-.carousel-inner .form-inline .form-group button[type="livedemo"]:hover {
+/* .carousel-inner .form-inline .form-group button[type="livedemo"]:hover {
   color: #fff;
   opacity: 0.8;
   -webkit-transition: color 300ms, background-color 300ms;
   -moz-transition: color 300ms, background-color 300ms;
   -o-transition: color 300ms, background-color 300ms;
   transition: color 300ms, background-color 300ms;
-}
-
+} */
+/*
 .carousel-inner .form-inline .form-group button[type="getnow"] {
   padding: 20px 60px;
   font-size: 20px;
@@ -1155,9 +1162,9 @@ section.featured h2.slogan {
   color: #272727;
   border-radius: 0;
   text-transform: uppercase;
-}
+} */
 
-.carousel-inner .form-inline .form-group button[type="getnow"]:hover {
+/* .carousel-inner .form-inline .form-group button[type="getnow"]:hover {
   color: #fff;
   border-color: #fff;
   background: #3a906d;
@@ -1165,7 +1172,7 @@ section.featured h2.slogan {
   -moz-transition: color 300ms, background-color 300ms;
   -o-transition: color 300ms, background-color 300ms;
   transition: color 300ms, background-color 300ms;
-}
+} */
 
 .form-inline {
   margin-top: 50px;
@@ -1202,7 +1209,7 @@ section.featured h2.slogan {
 
 }
 
-.learn-more:hover {
+.learn-more:{
   background: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.4);
 
@@ -1233,7 +1240,7 @@ section.featured h2.slogan {
   left: 8%;
   font-size: 26px;
 }
-
+/*
 .learn-more:hover a.first {
   position: absolute;
   top: 30px;
@@ -1242,7 +1249,7 @@ section.featured h2.slogan {
 .learn-more:hover a.sec {
   position: absolute;
   top: -3px;
-}
+} */
 
 
 .circle {
@@ -1275,9 +1282,9 @@ section.featured.inner {
 }
 
 /*id*/
-#header img {
+/* #header img {
   height: 600px;
-}
+} */
 
 #section-services {
   background-color: #fff;
@@ -1295,7 +1302,8 @@ section.featured.inner {
 }
 
 .about {
-  padding: 0 20px 80px;
+    @import (less) url("codepen.io/thinkdrastic/pen/LaRNNa.css")
+  /* padding: 0 20px 80px; */
 }
 
 .company h4 span {
